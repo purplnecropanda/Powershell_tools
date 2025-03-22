@@ -10,3 +10,6 @@ remote_winget:
 Replace $remoteFileUrl = "<link>" with the link to your exported winget exported json file and run to perform winget import.
 
 the script will create a temporary "winget-import.json" file, write the data from the remote raw data to "winget-import.json" and run "winget import winget-import.json", after winget import finishes running the "winget-import.json" will be removed.
+
+folder_size_list:
+Lists all directories in the current location, calculates their sizes and displays them sorted by size in descending order.
